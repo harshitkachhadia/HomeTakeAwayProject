@@ -1,0 +1,170 @@
+body,
+h1,
+input,
+button,
+table,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 18px;
+}
+
+header h1 {
+    color: #333;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.card {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.taskInput {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+#taskInput {
+    width: 300px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#addTask {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#addTask:hover {
+    background-color: blue;
+}
+
+.filter-container {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+#filter {
+    padding: 8px 15px;
+    font-size: 1rem;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    color: #555;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#filter:hover {
+    background-color: #f8f9fa;
+}
+
+#filter:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+#tasks {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border: none;
+}
+
+#tasks th,
+#tasks td {
+    padding: 12px;
+    text-align: left;
+}
+
+
+#tasks th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+
+.completed {
+    text-decoration: line-through;
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.action-buttons button {
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.action-buttons .complete-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.action-buttons .complete-btn:hover {
+    background-color: #0056b3;
+}
+
+.action-buttons .delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.action-buttons .delete-btn:hover {
+    background-color: #c82333;
+}
+
+/* Add icon for edit button (using Font Awesome) */
+.action-buttons .edit-btn {
+    background-color: #ffc107;
+    color: white;
+    padding: 6px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.action-buttons .edit-btn:hover {
+    background-color: #e0a800;
+}
+
+/* Task Row Styling for alternating rows */
+#taskTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}

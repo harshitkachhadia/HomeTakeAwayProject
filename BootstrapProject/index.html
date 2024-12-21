@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Travel Agency Website</title>
+</head>
+<body>
+    <!-- Navabr Section -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="assets/logo.png" alt="Travel Agency Logo" width="100" height="40">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#packages">Packages</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#contact">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero-section d-flex align-items-center justify-content-center text-center">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+            <h1 class="display-4 fw-bold">Discover Your Next Destination</h1>
+            <p class="lead">Plan your perfect getaway with us</p>
+            <a href="#packages"  class="btn btn-custom btn-lg mt-4">Explore Packages</a>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="about-section py-5 bg-light">
+        <div class="container">
+            <h2 class="fw-bold mb-4 text-start">About Us</h2> 
+            <p class="lead text-muted">
+                We are a premier travel agency dedicated to making your dream vacations come true. 
+                With years of experience, we offer tailored travel packages, personalized itineraries, 
+                and exceptional customer service to ensure your trip is unforgettable. 
+                Our team of expert travel planners works tirelessly to create unique, customized travel experiences for each of our clients. 
+                Whether you're seeking a romantic escape, an adventure-filled journey, or a family vacation, our goal is to make your dream vacation a reality. 
+                From choosing the right package to handling bookings and providing on-trip support, we are here to assist every step of the way. We pride ourselves on our personalized approach, taking the time to understand your needs and preferences to ensure every detail of your trip is tailored just for you.
+            </p>
+        </div>
+    </section>
+    <hr>
+    <!-- Services Section -->
+    <section id="services" class="services-section py-5 bg-light">
+        <div class="container">
+            <h2 class="fw-bold mb-4 text-start text-dark">Our Services</h2> 
+            <p class="lead text-muted mb-5">
+                At our travel agency, we offer a wide range of services to ensure your travel experience is seamless and memorable. 
+                Explore our offerings below:
+            </p>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="assets/flightBooking.jpg" class="card-img-top" alt="Flight Booking">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-custom-color ">Flight Booking</h5>
+                            <p class="card-text">
+                                We offer flight booking services with the best deals to any destination. Whether it's domestic or international, we'll help you find affordable flights.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="assets/hotelBooking.jpg" class="card-img-top" alt="Hotel Booking">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-custom-color ">Hotel Booking</h5>
+                            <p class="card-text">
+                                We assist in booking the finest hotels according to your preferences. Whether you're looking for luxury or budget stays, we have options for every need.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="assets/customPackages.jpg" class="card-img-top" alt="Custom Packages">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-custom-color ">Custom Packages</h5>
+                            <p class="card-text">
+                                Our custom packages are designed to meet your travel needs. From adventure tours to relaxing retreats, we offer personalized itineraries for every traveler.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- Packages Section -->
+    <section id="packages" class="packages-section py-5 bg-light">
+        <div class="container">
+            <h2 class="fw-bold mb-4 text-start text-dark">Our Travel Packages</h2>
+            <p class="lead text-muted mb-5">
+                Explore our wide range of travel packages and find the perfect vacation for you. Browse through our handpicked selections:
+            </p>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="assets/tropicalParadise.jpg" class="card-img-top img-fluid" alt="Package 1" style="object-fit: cover; height: 200px;">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-custom-color">Tropical Paradise</h5>
+                            <p class="card-text">
+                                A perfect escape to tropical beaches. Explore sun-kissed shores and enjoy luxury resorts.
+                            </p>
+                            <p class="fw-bold text-center">$999</p>
+                            <button type="button" class="btn btn-custom w-100" data-bs-toggle="modal" data-bs-target="#packageModal1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal for Tropical Paradise -->
+                <div class="modal fade" id="packageModal1" tabindex="-1" aria-labelledby="packageModal1Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-custom-color fw-bold" id="packageModal1Label">Tropical Paradise</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>A perfect escape to tropical beaches, explore sun-kissed shores, and enjoy luxury resorts with various activities. Experience the best of beach life in this exclusive package.</p>
+                                <p><strong>Price:</strong> $999</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Package 2: Mountain Adventure -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="assets/mountainAdventure.jpg" class="card-img-top img-fluid" alt="Package 2" style="object-fit: cover; height: 200px;">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-custom-color">Mountain Adventure</h5>
+                            <p class="card-text">
+                                Explore the beauty of the mountains with hiking, sightseeing, and cozy retreats.
+                            </p>
+                            <p class="fw-bold text-center">$799</p>
+                            <button type="button" class="btn btn-custom w-100" data-bs-toggle="modal" data-bs-target="#packageModal2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal for Mountain Adventure -->
+                <div class="modal fade" id="packageModal2" tabindex="-1" aria-labelledby="packageModal2Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-custom-color fw-bold" id="packageModal2Label">Mountain Adventure</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Explore the beauty of the mountains with hiking, sightseeing, cozy retreats, and scenic views. The perfect package for adventure seekers and nature lovers.</p>
+                                <p><strong>Price:</strong> $799</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Package 3: Cultural Expedition -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="assets/culturalExpedition.jpg" class="card-img-top img-fluid" alt="Package 3" style="object-fit: cover; height: 200px;">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-custom-color">Cultural Expedition</h5>
+                            <p class="card-text">
+                                Immerse yourself in the rich history and culture of ancient cities and landmarks.
+                            </p>
+                            <p class="fw-bold text-center">$1199</p>
+                            <button type="button" class="btn btn-custom w-100" data-bs-toggle="modal" data-bs-target="#packageModal3">Read More</button>
+                        </div>
+                    </div>
+                </div>    
+                <!-- Modal for Cultural Expedition -->
+                <div class="modal fade" id="packageModal3" tabindex="-1" aria-labelledby="packageModal3Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-custom-color fw-bold" id="packageModal3Label">Cultural Expedition</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Immerse yourself in the rich history and culture of ancient cities and landmarks, experience local traditions, and visit stunning architectural wonders.</p>
+                                <p><strong>Price:</strong> $1199</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+                <!-- Package 4: Luxury Cruise -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="assets/luxuryCruise.jpg" class="card-img-top img-fluid" alt="Package 4" style="object-fit: cover; height: 200px;">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-custom-color">Luxury Cruise</h5>
+                            <p class="card-text">
+                                Set sail on a luxurious cruise with stunning views, gourmet dining, and endless relaxation.
+                            </p>
+                            <p class="fw-bold text-center">$1999</p>
+                            <button type="button" class="btn btn-custom w-100" data-bs-toggle="modal" data-bs-target="#packageModal4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal for Luxury Cruise -->
+                <div class="modal fade" id="packageModal4" tabindex="-1" aria-labelledby="packageModal4Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-custom-color fw-bold" id="packageModal4Label">Luxury Cruise</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Set sail on a luxurious cruise with stunning views, gourmet dining, and endless relaxation. Enjoy the ultimate vacation experience on the open sea.</p>
+                                <p><strong>Price:</strong> $1999</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5 bg-light">
+        <div class="container">
+            <h2 class="fw-bold mb-4 text-start">Contact Us</h2>
+            <p class="lead text-muted mb-5">
+                If you have any questions or would like to get in touch, please fill out the form below:
+            </p>
+            <form action="#" method="post">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="name" class="form-label text-custom-color">Your Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="email" class="form-label text-custom-color">Your Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                </div>
+                <div class=" col-md-6  mb-3">
+                    <label for="message" class="form-label text-custom-color">Your Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" placeholder="Enter your message" required></textarea>
+                </div>
+                    <button type="submit" class="btn btn-custom">Submit</button>
+            </form>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer mt-4 py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Contact Information</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-house-door"></i> 123 Travel St, Ahmedabad, India</li>
+                        <li><i class="bi bi-telephone"></i> +123 456 789</li>
+                        <li><i class="bi bi-envelope"></i> info@travelagency.com</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h5>Follow Us</h5>
+                    <div class="d-flex justify-content-center mt-4">
+                        <a href="#" class="text-white mx-1"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="#" class="text-white mx-1"><i class="fab fa-twitter fa-lg"></i></a>
+                        <a href="#" class="text-white mx-1"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="#" class="text-white mx-1"><i class="fab fa-linkedin fa-lg"></i></a>
+                    </div>
+                </div>
+                    <div class="col-md-4 text-end">
+                    <p>&copy; 2024 Travel Agency. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

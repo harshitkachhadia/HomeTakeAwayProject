@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Task Manager</title>
+</head>
+
+<body>
+    <header>
+        <h1>Task Manager</h1>
+    </header>
+    <main>
+        <div class="card">
+            <div class="taskInput">
+                <input type="text" id="taskInput" placeholder="Enter a new task">
+                <button id="addTask">Add Task</button>
+            </div>
+            <div class="filter-container">
+                <select id="filter">
+                    <option value="all">All Tasks</option>
+                    <option value="completed">Completed Tasks</option>
+                    <option value="pending">Pending Tasks</option>
+                </select>
+            </div>
+            <table id="tasks">
+                <thead>
+                    <tr>
+                        <th>Task</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Task will be add here -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
