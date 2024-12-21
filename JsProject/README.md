@@ -42,7 +42,7 @@ The Task Manager Web App is a simple yet feature-rich application that allows us
 ### Steps
 1. Clone or download the project repository to your local machine.
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/harshitkachhadia/HomeTakeAwayProject/tree/master/JsProject
    ```
 2. Open the project folder.
 3. Locate the `index.html` file.
