@@ -15,7 +15,7 @@ Follow these steps to run the webpage on your local system:
 
    - If the project is hosted on GitHub, clone the repository using:
      ```bash
-     git clone <repository_url>
+     git clone https://github.com/harshitkachhadia/HomeTakeAwayProject/tree/master/BootstrapProject
      ```
    - Alternatively, download the ZIP file and extract it to a local directory.
 
